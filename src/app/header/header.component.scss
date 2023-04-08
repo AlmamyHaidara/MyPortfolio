@@ -1,0 +1,110 @@
+header {
+  position: relative;
+  top: 6.2rem;
+  width: 100%;
+  height: 89.9vh;
+  background: var(--navy);
+  display: flex;
+  justify-content: space-between;
+  .left-side-bar {
+    width: 40px;
+    position: fixed;
+    top: 56rem;
+    left: 5rem;
+    a{
+
+      padding: 10px 0.5px;
+    }
+    .icon {
+      margin-top: -11.5rem;
+      display: flex;
+      flex-direction: column;
+      width: 5rem;
+      margin-left: -0.4rem;
+      i{
+        font-size: 20px;
+        background: transparent;
+      }
+      i:hover{
+      color: var(--green);
+      padding-left: 2px;
+      transition: 0.5s;
+      font-size: 25px;
+      // animation: zoom 1.5s infinite ;
+      // will-change: auto;
+      }
+    }
+  }
+  .right-side-bar {
+    position: fixed;
+    top: 56rem;
+    right: 0rem;
+    display: block;
+    width: 5rem;
+    .email {
+      transform: rotate(90deg);
+      position: relative;
+      top: -14.4rem;
+      right: 2.4rem;
+      font-size: 14px;
+      font-family: var(--font-mono);
+      cursor: pointer;
+
+    }
+    .email a:hover{
+      color: var(--green);
+    }
+  }
+
+  .right-side-bar::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    width: 3px;
+    height: 6rem;
+    background: var(--lightest-slate);
+  }
+  .left-side-bar::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    width: 3px;
+    height: 6rem;
+    background: var(--lightest-slate);
+  }
+  .center-side{
+    text-align: left;
+    margin: auto;
+    p{
+      font-size: 20px;
+      word-spacing: 5px;
+      font-family: var(--font-mono);
+      color: var(--green);
+    }
+    h1{
+      font-size: 4em;
+      word-spacing: 5px;
+    }
+    h1 + p{
+      color: var(--lightest-slate);
+      // text-align: center;
+      margin-top: 10px;
+      width: 55rem;
+    }
+    button{
+      margin-top: 5rem;
+      padding: 12px 5rem;
+      border: 1px solid var(--green);
+      background: #64ffdb33;
+      border-radius: 4px;
+      font-size: 14.13px;
+      cursor: pointer;
+      color: var(--green);
+    }
+    button:hover{
+      background: transparent;
+      transition: 0.5s;
+    }
+  }
+}
+

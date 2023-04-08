@@ -1,0 +1,51 @@
+.contact {
+  margin-top: 25rem;
+  justify-content: center;
+  text-align: center;
+  p{
+    font-size: 14.4;
+    font-family: var(--font-mono);
+    span{
+
+      color: var(--green);
+    }
+  }
+  h2{
+    font-family: var(--font-sans);
+    font-size: 40px;
+    margin-top: 2rem;
+  }
+  span{
+    p{
+      margin-top: 2rem;
+      margin-left: 40rem;
+      width: 40rem;
+      height: auto;
+    }
+  }
+  button{
+    margin-top: 5rem;
+    padding: 12px 5rem;
+    border: 1px solid var(--green);
+    background: #64ffdb33;
+    border-radius: 4px;
+    font-size: 14.13px;
+    cursor: pointer;
+    a{
+
+      color: var(--green);
+    }
+  }
+  button:hover{
+    background: transparent;
+    transition: 0.5s;
+  }
+  .footer{
+    p{
+      margin-left: 48.5rem;
+      margin-top: 10rem;
+      width: 22rem;
+    }
+  }
+
+}

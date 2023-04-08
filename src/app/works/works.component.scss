@@ -1,0 +1,308 @@
+.project-lst{
+  width: 70%;
+  height: auto;
+  position: relative;
+  top: 14rem;
+  left: 25rem;
+  display: block;
+  h2 {
+    font-family: var(--font-sans);
+
+    span {
+      color: var(--green);
+    }
+    cursor: pointer;
+  }
+  h2::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 11rem;
+    width: 20rem;
+    height: 0.1px;
+  }
+}
+.lst-works {
+  width: 60%;
+  height: auto;
+  position: relative;
+  top: 1rem;
+  left: 11rem;
+  display: block;
+
+  .work {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: right;
+    margin-left: 7rem;
+    .project-desc {
+      margin-top: 10rem;
+      margin-left: -5rem;
+    }
+    .project-desc > p {
+      color: var(--green);
+      font-size: 16.4px;
+      font-family: var(--font-mono);
+    }
+    .project-desc > h3 {
+      font-family: var(--font-sans);
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .project-desc > h3:hover {
+      color: var(--green);
+    }
+    .box-desc {
+      box-shadow: 0 10px 30px -15px var(--navy-shadow);
+      transition: var(--transition);
+      position: relative;
+      z-index: 2;
+      padding: 25px;
+      border-radius: var(--border-radius);
+      background-color: var(--light-navy);
+      color: var(--light-slate);
+      font-size: var(--fz-lg);
+
+      p {
+        width: 26rem;
+        font-family: var(--font-sans);
+        span{
+          color: var(--green);
+        }
+      }
+    }
+    .box-img {
+      display: flex;
+      flex-wrap: nowrap;
+      img {
+        width: 500px;
+        height: 360px;
+        object-fit: fill;
+        margin-top: 5rem;
+        margin-left: -10rem;
+        border-radius: 8px;
+      }
+    }
+    .box-img::after {
+      // z-index: -1;
+      content: "";
+      position: absolute;
+      width: 500px;
+      height: 360px;
+      top: 4.9rem;
+      left: -3rem;
+      // height: 300px;
+
+      background: var(--green);
+      opacity: 0.7;
+      border-radius: 8px;
+      animation: filter_anime_in 0.2s linear forwards;
+      will-change: auto;
+    }
+    .box-img:hover::after {
+      animation: filter_anime_out 0.5s linear forwards;
+      will-change: auto;
+    }
+    .box-img:hover::before {
+      top: 5.9rem;
+      transform: 0.5s ;
+    }
+
+
+  }
+
+
+  .work1 {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: left;
+    margin-top: 3rem;
+    .project-desc1 {
+      margin-top: 11rem;
+      margin-left: -5rem;
+    }
+    .project-desc1 > p {
+      color: var(--green);
+      font-size: 16.4px;
+      font-family: var(--font-mono);
+    }
+    .project-desc1 > h3 {
+      font-family: var(--font-sans);
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .project-desc1 > h3:hover {
+      color: var(--green);
+    }
+    .box-desc1 {
+      box-shadow: 0 10px 30px -15px var(--navy-shadow);
+      transition: var(--transition);
+      position: relative;
+      z-index: 2;
+      padding: 25px;
+      border-radius: var(--border-radius);
+      background-color: var(--light-navy);
+      color: var(--light-slate);
+      font-size: var(--fz-lg);
+
+      p {
+        width: 26rem;
+        font-family: var(--font-sans);
+        span{
+          color: var(--green);
+        }
+      }
+    }
+
+    .box-img1 {
+      display: flex;
+      flex-wrap: nowrap;
+      img {
+        width: 500px;
+        height: 360px;
+        object-fit: fill;
+        margin-top: 5rem;
+        margin-left: -10rem;
+        border-radius: 8px;
+      }
+    }
+
+
+    .box-img1::after {
+      content: "";
+      position: absolute;
+      top: 35.5rem;
+      left: 14.1rem;
+      height: 300px;
+      width: 500px;
+      height: 360px;
+      background: var(--green);
+      opacity: 0.7;
+      border-radius: 8px;
+      animation: filter_anime_in 0.2s linear forwards;
+      will-change: auto;
+    }
+    .box-img1:hover::after {
+      animation: filter_anime_out 0.5s linear forwards;
+      will-change: auto;
+    }
+    .box-img1:hover::before {
+      top: 5.9rem;
+      transform: 0.5s ;
+    }
+  }
+
+  .work3 {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: right;
+    margin-top: 3rem;
+    .project-desc3 {
+      margin-top: 11rem;
+      margin-left: -5rem;
+    }
+    .project-desc3 > p {
+      color: var(--green);
+      font-size: 16.4px;
+      font-family: var(--font-mono);
+    }
+    .project-desc3 > h3 {
+      font-family: var(--font-sans);
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .project-desc3 > h3:hover {
+      color: var(--green);
+    }
+    .box-desc3 {
+      box-shadow: 0 10px 30px -15px var(--navy-shadow);
+      transition: var(--transition);
+      position: relative;
+      z-index: 2;
+      padding: 25px;
+      border-radius: var(--border-radius);
+      background-color: var(--light-navy);
+      color: var(--light-slate);
+      font-size: var(--fz-lg);
+
+      p {
+        width: 26rem;
+        font-family: var(--font-sans);
+        span{
+          color: var(--green);
+        }
+      }
+    }
+
+    .box-img3 {
+      display: flex;
+      flex-wrap: nowrap;
+      img {
+        width: 500px;
+        height: 360px;
+        object-fit: fill;
+        margin-top: 5rem;
+        margin-left: -10rem;
+        border-radius: 8px;
+      }
+    }
+
+    .box-img3::after {
+      content: "";
+      position: absolute;
+      top: 66rem;
+      left: -10rem;
+      height: 300px;
+      width: 500px;
+      height: 360px;
+      background: var(--green);
+      opacity: 0.7;
+      border-radius: 8px;
+      animation: filter_anime_in 0.2s linear forwards;
+      will-change: auto;
+    }
+    .box-img3:hover::after {
+      animation: filter_anime_out 0.5s linear forwards;
+      will-change: auto;
+    }
+    .box-img3:hover::before {
+      top: 5.9rem;
+      transform: 0.5s ;
+    }
+  }
+
+  @keyframes filter_anime_out {
+    0% {
+      transform: translateX(0px);
+      width: 500px;
+      opacity: 0.7;
+    }
+    50% {
+      transform: translateX(50px);
+      opacity: 0.2;
+      width: 250px;
+    }
+    100% {
+      transform: translateX(100px);
+      width: 0;
+      opacity: 0;
+    }
+  }
+  @keyframes filter_anime_in {
+    0% {
+      transform: translateX(100px);
+      width: 0px;
+      opacity: 0;
+    }
+    50% {
+      transform: translateX(50px);
+      opacity: 0.2;
+      width: 250px;
+    }
+    100% {
+      transform: translateX(0px);
+      width: 500px;
+      opacity: 0.7;
+    }
+  }
+}
