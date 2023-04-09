@@ -1,7 +1,9 @@
 .about {
+  padding-top: 10rem;
   margin-top: 6rem;
   width: 80%;
   height: 90vh;
+  // background: #fff;
   .box-about {
     width: 90%;
     height: auto;
@@ -91,7 +93,7 @@
       }
       .img-container:hover::before {
         top: 5.9rem;
-        transform: 0.5s ;
+        transform: 0.5s;
       }
       .img-container::before {
         z-index: -1;
