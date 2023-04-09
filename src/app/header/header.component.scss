@@ -91,7 +91,8 @@ header {
       margin-top: 10px;
       width: 55rem;
     }
-    button{
+    .cv{
+      width: 13rem;
       margin-top: 5rem;
       padding: 12px 5rem;
       border: 1px solid var(--green);
@@ -101,7 +102,7 @@ header {
       cursor: pointer;
       color: var(--green);
     }
-    button:hover{
+    .cv:hover{
       background: transparent;
       transition: 0.5s;
     }

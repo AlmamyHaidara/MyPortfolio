@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  path:string = ''
 
   ngOnInit(): void {
+    this.path = '../../assets/pdf/Cv_almamy_ali_haidara.pdf'
   }
 }
