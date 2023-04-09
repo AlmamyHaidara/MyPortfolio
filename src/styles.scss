@@ -13,8 +13,23 @@
   text-decoration: none;
   // box-shadow: 0 0 0 3px red inset;
 }
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
 body{
   background: var(--navy);
+  scroll-snap-align: center;
+}
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-track{
+  background: var(--navy);
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background: var(--green);
 }
 :root {
   --dark-navy: #020c1b;
